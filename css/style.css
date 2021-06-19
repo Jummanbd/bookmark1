@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    margin-top: 2em;
+}
+.hero{
+    width: 500px;
+    padding: 3em 2em;
+    background: rgb(26, 14, 93);
+    color: white;
+    margin: 3em auto 0;
+    border-radius: 10px;
+}
+.btns{
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 0.4em 0;
+    outline: none!important;
+    border-radius: 50px;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+ .wrapper{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 5em;
+ }
+.item{
+    position: relative;
+    display: flex;
+     background: rgb(156, 156, 156);
+     padding: 1.3em 2.5em;
+     border-radius: 4px;
+     margin-left: 2em ;
+     
+}
+.item img{
+    margin-right: 1em;
+    width: 25px;
+    height: 25px;
+}
+.name a{
+    font-size: 1.4em;
+    color: #000
+}
+.las{
+position: absolute;
+top: 8px;
+font-size: 1.3em;
+right: 10px;
+cursor: pointer;
+}
+
+.item .hide{
+    display: none;
+}
